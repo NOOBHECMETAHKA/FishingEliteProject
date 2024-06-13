@@ -1,0 +1,31 @@
+﻿<Window x:Class="FishingElite.ActiveCreator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FishingElite"
+        mc:Ignorable="d"
+        Title="ActiveCreator" Height="450" Width="800">
+    <StackPanel Margin="20">
+        <StackPanel>
+            <TextBlock>Название актива</TextBlock>
+            <TextBox x:Name="tbNameActive"></TextBox>
+        </StackPanel>
+        <StackPanel>
+            <TextBlock>Общая сумма</TextBlock>
+            <TextBox x:Name="tbonce_price"></TextBox>
+        </StackPanel>
+        <StackPanel>
+            <TextBlock>Вид</TextBlock>
+            <ComboBox x:Name="cbTypeActive"></ComboBox>
+        </StackPanel>
+        <StackPanel>
+            <TextBlock>Описание</TextBlock>
+            <TextBox x:Name="tbDescription"></TextBox>
+        </StackPanel>
+        <StackPanel Margin="20">
+            <Button Name="btnAdd" Click="btnAdd_Click">Добавить</Button>
+            <Button x:Name="btnExit" Click="btnExit_Click">Выйти</Button>
+        </StackPanel>
+    </StackPanel>
+</Window>

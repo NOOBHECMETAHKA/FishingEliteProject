@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishingElite", "FishingElite\FishingElite.csproj", "{F1F21FB1-CD7F-40CB-800F-F69821B1289E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishingEliteTest", "FishingEliteTest\FishingEliteTest.csproj", "{DCD06DB5-A408-4CEE-8500-F5B7B54F3A19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1F21FB1-CD7F-40CB-800F-F69821B1289E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F21FB1-CD7F-40CB-800F-F69821B1289E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F21FB1-CD7F-40CB-800F-F69821B1289E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F21FB1-CD7F-40CB-800F-F69821B1289E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD06DB5-A408-4CEE-8500-F5B7B54F3A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD06DB5-A408-4CEE-8500-F5B7B54F3A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD06DB5-A408-4CEE-8500-F5B7B54F3A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD06DB5-A408-4CEE-8500-F5B7B54F3A19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC7C410E-5FFA-4B26-A07A-B55D0544691E}
+	EndGlobalSection
+EndGlobal

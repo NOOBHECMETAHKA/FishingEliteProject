@@ -1,0 +1,30 @@
+﻿<Window x:Class="FishingElite.ActiveControle"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FishingElite"
+        mc:Ignorable="d"
+        Title="Событие" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Margin="20">
+            <Button Name="btnActiveAdd" Click="btnActiveAdd_Click">Добавить активность</Button>
+            <Button Name="btnDeleteActive" Click="btnDeleteActive_Click">Удалить активность</Button>
+        </StackPanel>
+        
+        <DataGrid x:Name="ActiveDataGrid" Grid.Row="1" SelectionChanged="DataGrid_SelectionChanged" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Номер актива" Binding="{ Binding id}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Название актива" Binding="{ Binding name}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Общая сумма актива" Binding="{ Binding once_price }"></DataGridTextColumn>
+                <DataGridTextColumn Header="Вид" Binding="{ Binding Category.title }"></DataGridTextColumn>
+                <DataGridTextColumn Header="Описание" Binding="{ Binding description }"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
